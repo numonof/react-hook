@@ -5,7 +5,6 @@ function App() {
 const [ firstNumber, setFirstNumber] = React.useState()
 const [secondNumber, setSecondNumber] = React.useState()
 const [mathOperation, setMathOperation] = React.useState('+')
-// const [state, setState] = React.useState('ishlar yaxshimi?')
 
 const calculation = (_firstNumber, _secondNamber, _mathOperation) => {
   if (_mathOperation === '+') {
@@ -17,6 +16,7 @@ const calculation = (_firstNumber, _secondNamber, _mathOperation) => {
   if (_mathOperation === '*') {
    return  _firstNumber * _secondNamber
   }
+
   if (_mathOperation === '/') {
    return  _firstNumber / _secondNamber
   }
